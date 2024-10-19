@@ -7,6 +7,9 @@ body a {
   color: black;
   font-family: "Nunito Sans", sans-serif;
 }
+.blogBody{
+  height: auto;
+}
 
 /* hoverSelection6N + a */
 /* OVERLAY */
@@ -523,6 +526,18 @@ body main .carousel {
   color: white;
   background: #323232;
   cursor: pointer;
+}
+.blogSection{
+
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+
+  margin-top: 3.5rem;
+} 
+.blogSection h2{
+  text-align: center;
 }
 
 @media (max-width: 1070px) {
